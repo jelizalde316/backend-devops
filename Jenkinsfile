@@ -3,8 +3,7 @@ pipeline {
     satages{
         stage("primer paso"){
             steps("primer paso"){
-                sh "echo 'saludos desde el terminal'"
-
+                sh 'echo \'saludos desde la terminal\''
             }
         }
         stage("segundo paso"){
